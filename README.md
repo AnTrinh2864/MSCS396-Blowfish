@@ -1,5 +1,5 @@
 # MSCS396-Blowfish
- 
+ //Please use Blowfish2 and DES2 files for implementation
 
 Project: Blowfish
 MSCS 396: Applied Cryptography
