@@ -20,8 +20,8 @@ class DES2{
     String inputMessage,encryptedData,decryptedMessage;
     public DES2() {
         try {
-            //inputMessage= JOptionPane.showInputDialog(null,"Enter message to encrypt");
-            inputMessage = "plaintex";
+            inputMessage= JOptionPane.showInputDialog(null,"Enter message to encrypt");
+            //inputMessage = "plaintex";
             byte[] ibyte = inputMessage.getBytes();
             long startTime = System.nanoTime();
             generateSymmetricKey();
@@ -122,7 +122,7 @@ class DES2{
         }
     }
     public static void main(String args[]) {
-        for (int i = 0; i <10; i++) {
+        for (int i = 0; i <1; i++) {
             DES2 des = new DES2();
         }
     }
